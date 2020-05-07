@@ -1,5 +1,7 @@
 
 // create the aspect/interceptor
+// i used OopJs function makeClass from https://github.com/ChristopherVonBlum/RadFramework.Libraries.OopJs
+// aspect.js also depends on OopJs at runtime so make sure its embedded
 var serviceProxyInterceptor = makeClass(
 {
     $inherits: aspect,
